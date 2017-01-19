@@ -12,14 +12,38 @@ namespace ConsoleApplication7
         {
 
             Heros Clad = new Heros();
-            Heros Sephiroth = new Heros();
-            Heros Barrett = new Heros();
-            Heros Tifa = new Heros();
+            Clad.setprenom(" Clad ");
+            Clad.setnom(" Strife ");
+            Clad.setage(22);
+            Clad.setlevel(1);
+            Clad.setclasse("Soldier");
 
-            Clad.affichernom();
-            Sephiroth.affichernom();
-            Barrett.affichernom();
-            Tifa.affichernom();
+            Heros Sephiroth = new Heros();
+            Sephiroth.setprenom(" Sephiroth ");
+            Sephiroth.setnom("Inconnu");
+            Sephiroth.setage(99);
+            Sephiroth.setlevel(30);
+            Sephiroth.setclasse("Inconnu");
+
+            Heros Barrett = new Heros();
+            Barrett.setprenom(" Barrett ");
+            Barrett.setnom(" Wallace ");
+            Barrett.setage(35);
+            Barrett.setlevel(1);
+            Barrett.setclasse("Avalanche");
+        
+            Heros Tifa = new Heros();
+            Tifa.setprenom(" Tifa ");
+            Tifa.setnom(" Lockheart ");
+            Tifa.setage(21);
+            Tifa.setlevel(1);
+            Tifa.setclasse("Avalanche");
+
+            Clad.afficheridentite();
+            Sephiroth.afficheridentite();
+            Barrett.afficheridentite();
+            Tifa.afficheridentite();
+           
         }
     }
 }
